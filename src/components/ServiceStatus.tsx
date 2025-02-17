@@ -39,7 +39,7 @@ const ServiceStatus: React.FC = () => {
   }, []);
   return (
     <React.Fragment>
-      {/* <Link to="https://status.alpaycelik.dev">
+      <Link to="/Home">
         <div className="status p-4 rounded-xl flex flex-row items-center">
           <div className="status-icon w-[2rem] h-[2rem] rounded-3xl relative mr-4">
             <div
@@ -51,7 +51,7 @@ const ServiceStatus: React.FC = () => {
           </div>
           <p className={`status-text ${statusColor()} `}>Status: {status}</p>
         </div>
-      </Link> */}
+      </Link>
     </React.Fragment>
   );
 };
